@@ -1,0 +1,488 @@
+.logo {
+  flex: 1;
+  padding: 10px 20px 10px 20px;
+  /* float: left;
+  width: 100px; */
+}
+.logo a {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+.logo img {
+  width: 150px;
+  margin-right: 10px;
+}
+.style-font {
+  /* float: left; */
+  padding: 36px 0px 15px 2px;
+  font-size: 32px;
+  color: black;
+}
+/* icon footer */
+.wrapper .button {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  float: none;
+  margin: 0 5px;
+  overflow: hidden;
+  background: #ffffff;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-out;
+}
+.wrapper .button:hover {
+  width: 150px;
+}
+.wrapper .button .icon {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  border-radius: 30px;
+  box-sizing: border-box;
+  line-height: 30px;
+  transition: all 0.2s ease-out;
+}
+.wrapper .button:nth-child(1):hover .icon {
+  background: #4267b2;
+}
+.wrapper .button:nth-child(2):hover .icon {
+  background: #1da1f2;
+}
+.wrapper .button:nth-child(3):hover .icon {
+  background: #e1306c;
+}
+.wrapper .button:nth-child(4):hover .icon {
+  background: #00a9e6;
+}
+.wrapper .button:nth-child(5):hover .icon {
+  background: #ff0000;
+}
+.wrapper .button .icon i {
+  font-size: 20px;
+  line-height: 50px;
+}
+/* // `xs` returns only a ruleset and no media query
+// ... { ... } */
+
+/* // `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (min-width: 100px) and (max-width: 575.98px) {
+  .logo {
+    flex: 1;
+    padding: 10px 20px 10px 20px;
+    /* float: left;
+    width: 100px; */
+  }
+  .logo a {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+  }
+  .logo img {
+    width: 90px;
+    margin-right: 5px;
+  }
+  .style-font {
+    /* float: left; */
+    padding: 36px 0px 15px 2px;
+    font-size: 14px;
+    color: black;
+  }
+  /* icon footer */
+  .wrapper .button {
+    display: inline-block;
+    height: 23px;
+    width: 23px;
+    float: none;
+    margin: 0 0px;
+    overflow: hidden;
+    background: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover {
+    width: 105px;
+  }
+  .wrapper .button .icon {
+    display: inline-block;
+    height: 23px;
+    width: 22px;
+    text-align: center;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 24px;
+    transition: all 0.2s ease-out;
+  }
+  .wrapper .button:nth-child(1):hover .icon {
+    background: #4267b2;
+  }
+  .wrapper .button:nth-child(2):hover .icon {
+    background: #1da1f2;
+  }
+  .wrapper .button:nth-child(3):hover .icon {
+    background: #e1306c;
+  }
+  .wrapper .button:nth-child(4):hover .icon {
+    background: #00a9e6;
+  }
+  .wrapper .button:nth-child(5):hover .icon {
+    background: #ff0000;
+  }
+  .wrapper .button .icon i {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .logo {
+    flex: 1;
+    padding: 10px 20px 10px 20px;
+    /* float: left;
+    width: 100px; */
+  }
+  .logo a {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+  }
+  .logo img {
+    width: 110px;
+    margin-right: 7px;
+  }
+  .style-font {
+    /* float: left; */
+    padding: 36px 0px 15px 2px;
+    font-size: 22px;
+    color: black;
+  }
+  .wrapper .button {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    float: none;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover {
+    width: 150px;
+  }
+  .wrapper .button .icon {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 30px;
+    box-sizing: border-box;
+    line-height: 30px;
+    transition: all 0.2s ease-out;
+  }
+  .wrapper .button:nth-child(1):hover .icon {
+    background: #4267b2;
+  }
+  .wrapper .button:nth-child(2):hover .icon {
+    background: #1da1f2;
+  }
+  .wrapper .button:nth-child(3):hover .icon {
+    background: #e1306c;
+  }
+  .wrapper .button:nth-child(4):hover .icon {
+    background: #00a9e6;
+  }
+  .wrapper .button:nth-child(5):hover .icon {
+    background: #ff0000;
+  }
+  .wrapper .button .icon i {
+    font-size: 20px;
+    line-height: 50px;
+  }
+}
+
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .logo {
+    flex: 1;
+    padding: 10px 20px 10px 20px;
+    /* float: left;
+    width: 100px; */
+  }
+  .logo a {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+  }
+  .logo img {
+    width: 120px;
+    margin-right: 7px;
+  }
+  .style-font {
+    /* float: left; */
+    padding: 36px 0px 15px 2px;
+    font-size: 24px;
+    color: black;
+  }
+  .wrapper .button {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    float: none;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover {
+    width: 150px;
+  }
+  .wrapper .button .icon {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 30px;
+    box-sizing: border-box;
+    line-height: 30px;
+    transition: all 0.2s ease-out;
+  }
+  .wrapper .button:nth-child(1):hover .icon {
+    background: #4267b2;
+  }
+  .wrapper .button:nth-child(2):hover .icon {
+    background: #1da1f2;
+  }
+  .wrapper .button:nth-child(3):hover .icon {
+    background: #e1306c;
+  }
+  .wrapper .button:nth-child(4):hover .icon {
+    background: #00a9e6;
+  }
+  .wrapper .button:nth-child(5):hover .icon {
+    background: #ff0000;
+  }
+  .wrapper .button .icon i {
+    font-size: 20px;
+    line-height: 50px;
+  }
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .logo {
+    flex: 1;
+    padding: 10px 20px 10px 20px;
+    /* float: left;
+    width: 100px; */
+  }
+  .logo a {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+  }
+  .logo img {
+    width: 130px;
+    margin-right: 8px;
+  }
+  .style-font {
+    /* float: left; */
+    padding: 36px 0px 15px 2px;
+    font-size: 28px;
+    color: black;
+  }
+  .wrapper .button {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    float: none;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover {
+    width: 150px;
+  }
+  .wrapper .button .icon {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 30px;
+    box-sizing: border-box;
+    line-height: 30px;
+    transition: all 0.2s ease-out;
+  }
+  .wrapper .button:nth-child(1):hover .icon {
+    background: #4267b2;
+  }
+  .wrapper .button:nth-child(2):hover .icon {
+    background: #1da1f2;
+  }
+  .wrapper .button:nth-child(3):hover .icon {
+    background: #e1306c;
+  }
+  .wrapper .button:nth-child(4):hover .icon {
+    background: #00a9e6;
+  }
+  .wrapper .button:nth-child(5):hover .icon {
+    background: #ff0000;
+  }
+  .wrapper .button .icon i {
+    font-size: 20px;
+    line-height: 50px;
+  }
+}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .logo {
+    flex: 1;
+    padding: 10px 20px 10px 20px;
+    /* float: left;
+    width: 100px; */
+  }
+  .logo a {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+  }
+  .logo img {
+    width: 140px;
+    margin-right: 9px;
+  }
+  .style-font {
+    /* float: left; */
+    padding: 36px 0px 15px 2px;
+    font-size: 30px;
+    color: black;
+  }
+  .wrapper .button {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    float: none;
+    margin: 0 5px;
+    overflow: hidden;
+    background: #ffffff;
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-out;
+  }
+  .wrapper .button:hover {
+    width: 150px;
+  }
+  .wrapper .button .icon {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 30px;
+    box-sizing: border-box;
+    line-height: 30px;
+    transition: all 0.2s ease-out;
+  }
+  .wrapper .button:nth-child(1):hover .icon {
+    background: #4267b2;
+  }
+  .wrapper .button:nth-child(2):hover .icon {
+    background: #1da1f2;
+  }
+  .wrapper .button:nth-child(3):hover .icon {
+    background: #e1306c;
+  }
+  .wrapper .button:nth-child(4):hover .icon {
+    background: #00a9e6;
+  }
+  .wrapper .button:nth-child(5):hover .icon {
+    background: #ff0000;
+  }
+  .wrapper .button .icon i {
+    font-size: 20px;
+    line-height: 50px;
+  }
+}
+
+.nav-link {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+.dropdown-item {
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+}
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.footer {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background-color: #ffc107;
+  padding: 35px;
+  /* background: linear-gradient(315deg, #ffffff 0%, #f5e0e0 74%); */
+}
+
+.photoshow {
+  width: 250px;
+  height: 250px;
+}
+.thumbnail {
+  display: block;
+  margin-bottom: 20px;
+  line-height: 1.42857;
+  background-color: rgb(255, 255, 255);
+  padding: 4px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(221, 221, 221);
+  border-image: initial;
+  border-radius: 4px;
+  transition: border 0.2s ease-in-out 0s;
+}
+.thumbnail.caption {
+  padding: 9px;
+  color: black;
+}
+.caption .p {
+  margin: 0 0 10px;
+}
+.caption {
+  padding: 10px;
+}
+.h {
+  /* width: 100%;
+  height: 5px; */
+  /* border: 0 none; */
+  /* margin-right: auto;
+  margin-left: auto; */
+  /* margin-top: 0px;
+  margin-bottom: 0px; */
+  /* color: black;
+  background-color: black;
+  border-style: inset;
+  display: block; */
+}
